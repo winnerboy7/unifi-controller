@@ -1,8 +1,6 @@
-# unifi-controller
-Unifi Controller
+# Unifi Controller
 
-
- follow the below steps
+-follow the below steps
 
 Step 1: You need to create a github repository first
 
@@ -19,11 +17,22 @@ Step 6: git commit -m "your message"
 Step 7: Then push it (git push origin "branch name")
 
 #----------------------------------------------------------------
+
 git config --global user.name "chaimongkol  Khamkom"
+
 git config --global user.email winnerboy7@hotmail.com
 
 git init
+
 git add .
+
 git commit -m "initial commit"
+
 git remote add origin https://github.com/winnerboy7/unifi-controller.git
+
 git push --set-upstream origin master
+
+#----------------------------------------------------------------
+
+# Create ./data directory before starting the controller
+
